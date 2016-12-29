@@ -85,6 +85,14 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func stopBtn(_ sender: Any) {
+        currentOperator = Operation.Empty
+        currentNumber = ""
+        leftNumber = ""
+        rightNumber = ""
+        result = ""
+        output.text = "0"
+    }
     
     
     func playSound() {

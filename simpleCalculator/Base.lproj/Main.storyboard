@@ -245,6 +245,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIj-Lc-dA2">
+                                <rect key="frame" x="60" y="598" width="294" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="294" id="GCl-B6-onT"/>
+                                    <constraint firstAttribute="height" constant="66" id="lV8-F7-4XL"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="clear"/>
+                                <connections>
+                                    <action selector="stopBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XWj-mv-a3n"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -262,7 +273,9 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="car-U5-cJs" secondAttribute="bottom" id="YVZ-W4-6ab"/>
                             <constraint firstItem="Eed-dA-qbr" firstAttribute="centerX" secondItem="nXx-IP-0HJ" secondAttribute="centerX" id="ZKA-Yp-FNx"/>
                             <constraint firstItem="g2o-Mk-Bu3" firstAttribute="bottom" secondItem="o2s-h0-7Sb" secondAttribute="bottom" id="ixs-Dz-XNW"/>
+                            <constraint firstItem="sIj-Lc-dA2" firstAttribute="top" secondItem="Eed-dA-qbr" secondAttribute="bottom" constant="57" id="qRN-15-49y"/>
                             <constraint firstItem="X2b-gi-npD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qWr-26-fc0"/>
+                            <constraint firstItem="sIj-Lc-dA2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tsZ-yD-cJ2"/>
                             <constraint firstAttribute="trailing" secondItem="car-U5-cJs" secondAttribute="trailing" id="voh-lf-ui1"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="X2b-gi-npD" secondAttribute="bottom" id="xRp-vV-qmb"/>
                         </constraints>
@@ -304,6 +317,7 @@
         <image name="9" width="111" height="114"/>
         <image name="add" width="111" height="114"/>
         <image name="backpanel" width="620" height="938"/>
+        <image name="clear" width="333" height="114"/>
         <image name="counter" width="516" height="133"/>
         <image name="divide" width="111" height="114"/>
         <image name="equal" width="111" height="114"/>
